@@ -1,7 +1,6 @@
 export default function LoginForm() {
   return (
     <form
-      className="w-full h-full flex flex-col justify-center p-8"
       action="/api/login" method="POST"
     >
       <div className="flex flex-row justify-center mb-4">

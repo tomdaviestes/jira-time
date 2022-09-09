@@ -56,17 +56,6 @@ export default function WorklogTotals() {
 
   return (
     <>
-      {/* <div className="flex flex-row flex-wrap justify-center mb-4 gap-4">
-        <TotalCard label="Yesterday" timeSpent={previousDayTotal} requiredHours={5} />
-        <TotalCard label="Today" timeSpent={currentDayTotal} requiredHours={5} />
-      </div>
-
-      <div className="flex flex-row flex-wrap justify-center mb-4 gap-4">
-        <TotalCard label="Last month" timeSpent={previousMonthTotal} requiredHours={100} />
-        <TotalCard label="This month" timeSpent={currentMonthTotal} requiredHours={100} />
-      </div> */}
-
-
       <div className="flex flex-row flex-wrap justify-center mb-4 gap-4 bg-base-300 rounded-lg">
         <WorklogStats label="Last Month" timeSpent={previousMonthTotal} requiredHours={100} />
         <WorklogStats label="This Month" timeSpent={currentMonthTotal} requiredHours={100} />
